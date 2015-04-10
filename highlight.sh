@@ -25,4 +25,4 @@ do
  shift;shift;
 done
 
-sed -e "$COMMAND"
+sed -u -e "$COMMAND"
